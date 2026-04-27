@@ -1,0 +1,29 @@
+# ── Data (too large for git) ─────────────────────────────────────────────────
+data/*.csv
+data/*.parquet
+
+# Macro source files are small (~2 MB total) — tracked in git
+# data/*.xlsx  ← NOT ignored
+# data/*.xls   ← NOT ignored
+
+# ── Generated notebook outputs ────────────────────────────────────────────────
+notebooks/notebooks_data/
+notebooks/figures/
+figures/
+
+# ── Python cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# ── Environments ──────────────────────────────────────────────────────────────
+.env
+.venv/
+venv/
+*.egg-info/
+
+# ── OS / editor ───────────────────────────────────────────────────────────────
+.DS_Store
+.idea/
+.vscode/
