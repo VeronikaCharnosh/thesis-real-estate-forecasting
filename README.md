@@ -278,22 +278,7 @@ python scripts/compute_vif.py       # VIF diagnostics for macro block
 
 ---
 
-## Citation
 
-If you use this code or methodology in academic work, please cite:
-
-```bibtex
-@thesis{charnosh2026ua_realestate,
-  author  = {Charnosh, Veronika},
-  title   = {Forecasting Residential Real Estate Prices under Wartime
-             Conditions: Evidence from Ukraine},
-  school  = {Ukrainian Catholic University},
-  year    = {2026},
-  type    = {Bachelor's Thesis},
-}
-```
-
----
 
 ## Acknowledgements
 
